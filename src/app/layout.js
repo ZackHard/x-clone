@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="">
           <div className="flex justify-between max-w-6xl mx-auto">
-            <div className="">
+            <div className="hidden sm:inline border-r h-screen pr-3">
               <Sidebar />
             </div>
             <div className="">{children}</div>
